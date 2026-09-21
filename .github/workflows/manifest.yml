@@ -1,0 +1,13 @@
+name: Manifest
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  manifest:
+    uses: alexbeavs-ps1-ports/psx-contracts/.github/workflows/validate-manifest.yml@v1
