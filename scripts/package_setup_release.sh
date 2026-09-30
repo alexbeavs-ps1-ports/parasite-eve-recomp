@@ -87,6 +87,7 @@ exec bash "${PACKAGER}" \
   --recompiler-build "${RECOMPILER_BUILD}" \
   --version-env RELEASE_VERSION \
   --disc-hint "your legally owned Parasite Eve two-disc set" \
+  --bios-hint "your own SCPH-1001 (USA) BIOS dump (524288 bytes; SHA-256 71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3)" \
   --project-file CMakeLists.txt \
   --project-file game.toml \
   --project-file VERSION \

@@ -22,6 +22,10 @@ project(Parasite_Eve LANGUAGES C CXX)
 # endif()
 set(PSX_SETUP_WIZARD ON CACHE BOOL
     "Advertise first-run setup wizard + Generate & rebuild in recomp-ui" FORCE)
+# Release standard: the retail BIOS of the disc region, no OpenBIOS (PS1B-269).
+set(PSXRECOMP_BIOS_STEMS "SCPH1001" CACHE STRING "Accepted BIOS" FORCE)
+set(PSXRECOMP_BIOS_STEM "SCPH1001" CACHE STRING "Accepted BIOS" FORCE)
+set(PSXRECOMP_BIOS_PROFILE "${PSXRECOMP_ROOT}/bios/SCPH1001.toml" CACHE FILEPATH "Accepted BIOS" FORCE)
 include("${PSXRECOMP_ROOT}/runtime/runtime.cmake")
 
 psxrecomp_add_game_runtime(psx-runtime

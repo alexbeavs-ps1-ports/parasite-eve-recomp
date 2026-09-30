@@ -22,6 +22,10 @@ A native recompilation setup host for the two-disc USA release of Parasite Eve.
 Scaffolded with the New Project Layout. See
 `psxrecomp/docs/GAME_PROJECT_SETUP.md` for the full flow.
 
+<!-- release-standard:bios -->
+**BIOS:** SCPH-1001 (USA) retail BIOS, 524288 bytes, SHA-256 `71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3`. Supply your own dump; releases do not use OpenBIOS.
+<!-- /release-standard:bios -->
+
 <!-- retcomm-readme-launcher -->
 ## RetComM Launcher
 
@@ -52,7 +56,7 @@ BIOS/ROM/save plumbing so you are not stuck repeating each game’s wizard by ha
 You must own the original game and provide both supported disc images. Disc
 images under `disc/` are ignored by Git and must never be committed. The
 package contains no retail BIOS. Supply a supported USA-region SCPH BIOS from
-hardware that you own. The included OpenBIOS image supports setup only.
+hardware that you own. OpenBIOS is not used.
 
 Default app icon: `assets/psxrecomp.ico` (and `.png` / `.svg`) — RetComM-themed controller mark from `psxrecomp/assets/`. Windows builds embed it via `APP_ICON`.
 

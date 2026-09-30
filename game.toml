@@ -6,6 +6,7 @@ name = "Parasite Eve"
 id = "SLUS-00662"
 players = 1
 exe = "disc/SLUS_006.62"
+disc = "disc/Parasite Eve (USA) (Disc 1).cue"
 discs = [
     "disc/Parasite Eve (USA) (Disc 1).cue",
     "disc/Parasite Eve (USA) (Disc 2).cue",
@@ -25,23 +26,28 @@ out_dir = "disc"
 bin_name = "Parasite Eve (USA) (Disc 1).bin"
 cue_name = "Parasite Eve (USA) (Disc 1).cue"
 boot_exe = "SLUS_006.62"
-known_sizes = [495531120]
+known_sizes = [495531120, 646877616]
 known_md5 = [
   "efae1df4faf4aadbfd4dc3aa022296cf",
+  "c8e01c1d77baadcb89685eaee839a824",
 ]
 known_sha1 = [
   "c339455d5b1dae04f77c2ee847d0932adaf2e84b",
+  "6dc5b537527aa0d54bdbbd0c14b458083b0743e4",
 ]
 known_crc32 = [
   "488641e0",
+  "226ee2ee",
 ]
 
 [recompiler]
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
 
 [runtime]
+openbios = false
 window_title = "Parasite Eve Recompiled"
 memcard_dir = "saves"
 
