@@ -50,6 +50,7 @@ strict = true
 openbios = false
 window_title = "Parasite Eve Recompiled"
 memcard_dir = "saves"
+overlay_cache = true
 
 [video]
 renderer = "opengl"
