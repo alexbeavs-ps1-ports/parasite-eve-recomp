@@ -118,11 +118,13 @@ in-game disc change still needs a connected manual gameplay test.
 ## License boundary
 
 Portfolio-owned source, scripts, configuration, and documentation use
-GPL-3.0-only. The `LICENSE` file contains the complete terms.
+PolyForm Noncommercial 1.0.0. The `LICENSE` file contains the complete terms.
 
-PSXRecomp keeps PolyForm Noncommercial 1.0.0. Recomp-UI keeps MIT. The GPL
-does not cover retail content, generated retail code, artwork, trademarks, or
-these separately licensed dependencies.
+PSXRecomp keeps the license in `psxrecomp/LICENSE`. Recomp-UI keeps MIT. The
+project license does not cover retail content, generated retail code, artwork,
+trademarks, or these separately licensed dependencies.
+`THIRD_PARTY_NOTICES.md` names the files that come from the PSXRecomp project
+scaffold; they keep the PSXRecomp license too.
 
 ## About this project
 

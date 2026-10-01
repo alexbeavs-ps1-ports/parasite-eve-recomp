@@ -95,6 +95,7 @@ exec bash "${PACKAGER}" \
   --project-file codegen_setup.h \
   --project-file README.md \
   --project-file LICENSE \
+  --project-file THIRD_PARTY_NOTICES.md \
   --project-file project-manifest.toml \
   --project-dir docs \
   --project-dir seeds \
