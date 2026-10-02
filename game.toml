@@ -48,7 +48,7 @@ strict = true
 
 [runtime]
 openbios = false
-bios_hle = true
+bios_hle = false
 window_title = "Parasite Eve Recompiled"
 memcard_dir = "saves"
 overlay_cache = true
