@@ -225,7 +225,7 @@ jobs:
 
       - name: Setup host mode (no game C / BIOS backends in CI)
         shell: bash
-        run: bash psxrecomp/tools/ci/clear_generated.sh
+        run: bash scripts/clear_generated.sh
 
       - name: Setup MSYS2 (Windows)
         if: runner.os == 'Windows'
