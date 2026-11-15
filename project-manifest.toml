@@ -18,8 +18,8 @@ stack_base = "0x801FFFF0"
 
 [framework]
 repository = "https://github.com/Alexbeav/psxrecomp.git"
-commit = "667900cca025c74c6fb13fa182bf9c68ec0ae728"
-tree = "bb0aedea60659805f621fe66538ea806f799e4ae"
+commit = "578bd3bedd48e2403a5d3de1cdc3eb260065ed7d"
+tree = "a0aa850abb6e2c6c6e9fa19f1c3d9b5446f2f65d"
 deterministic_build_identity_commit = "b5750bd13fb2366a13d0cf7f06ab9584bd2fd583"
 deterministic_build_identity_tree = "fd612c9effc0b400dfa867e017ceced854fe2f64"
 deterministic_link_commit = "6b74231479230e2c4d11d3e817af5d4a7739ae0b"
@@ -30,7 +30,7 @@ ci_correction_parent_commit = "e6d054de1538881cd81dcf3592de1f561afdbb5b"
 ci_correction_parent_tree = "cd6dc7efa7d3db466dc8608e7513c9039bc095be"
 release_base_commit = "afe9ab299aab0eeba1cc31f81bc4baf4e7fb2ab7"
 release_base_tree = "a9165efc45d6e865c6b9eb3637ce8d772d51662a"
-recomp_ui_commit = "ff92028ec86e30503694c70c532b93b8198663aa"
+recomp_ui_commit = "5302f1fc0823afb1a9c4554036902bb5b48fd896"
 license = "PolyForm Noncommercial 1.0.0"
 
 [studio]
