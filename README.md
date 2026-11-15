@@ -28,6 +28,16 @@ Scaffolded with the New Project Layout. See
 **BIOS:** SCPH-1001 (USA) retail BIOS, 524288 bytes, SHA-256 `71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3`. Supply your own dump; releases do not use OpenBIOS.
 <!-- /release-standard:bios -->
 
+## Status
+
+Latest release: v0.4.2, built on psxrecomp pin I 0.1.23.
+
+- Packages for Windows x64, Linux x64, macOS Apple Silicon and macOS Intel passed the CI build and package checks.
+- Replay check: on Windows, a build on pin I 0.1.23 played 1 of 1 recorded route to the end without a crash. That check compares memory, not the picture, and is not a play test.
+- Not claimed: full-game completion, audio fidelity or multiplayer. Setup and gameplay reports from Linux, macOS and Steam Deck are welcome.
+
+Known issues for the current version are in its [release notes](https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/tag/v0.4.2).
+
 <!-- retcomm-readme-launcher -->
 ## RetComM Launcher
 
@@ -132,9 +142,3 @@ These ports are developed by a hobbyist (a DevSecOps engineer, not a game
 programmer) with substantial AI assistance. Every release must pass its
 recorded build, package, and gameplay gates. AI writes most of the code, but I
 always test it myself before pushing. Bug reports are welcome.
-
-## v0.3.5 three-platform candidate
-
-The next release targets Windows x64, Linux x64, macOS Apple Silicon ARM64,
-and macOS Intel x64. These packages remain candidates until the exact archives
-pass the required native setup, startup, responsiveness, and clean-exit gates.
